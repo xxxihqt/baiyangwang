@@ -8,7 +8,7 @@ jQuery($=>{
             $('header #login').css('display', 'none');
             $('header #reg').css('display', 'none');
             $('header #out').css('display', 'inline-block');
-
+    
             // 退出登录
             $('header #out').click(function() {
                 $('#name').css('display', 'none');
