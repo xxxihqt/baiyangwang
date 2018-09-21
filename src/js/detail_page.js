@@ -4,7 +4,7 @@ jQuery($=>{
 
     $('header').load('common_header.html',function(){
         if(username){
-            $('header #name').css('display', 'inline-block').html(username);
+            $('header #name').css('display', 'inline-block').html(username);    
             $('header #login').css('display', 'none');
             $('header #reg').css('display', 'none');
             $('header #out').css('display', 'inline-block');
