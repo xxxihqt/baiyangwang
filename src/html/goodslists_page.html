@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>goodslists page</title>
+    <script type="text/javascript" src="../lib/jqueryWflbt/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iconfont/download/font_5nvmzqyri6j/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goodslists_page.css" />
+    <script type="text/javascript" src="../lib/page/jqueryPagination/js/jquery.pagination.min.js"></script>
+    <script type="text/javascript" src="../js/goodslists_page.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main class="clearfix">
+        <div class="fix_car"></div>
+        <article class="little_main">
+             <img src="../images/goodslists_page/top.jpg" height="152" width="1200" alt="" />
+             <h3 class="path"></h3>
+             <ul class="sortBox">
+                 <li>排序方式：</li>
+                 <li class="auto">默认</li>
+                 <li class="sales">销量</li>
+                 <li class="hot">人气</li>
+                 <li class="price">价格</li>
+                 <li>
+                     <input type="checkbox" />平台自营
+                     <input type="checkbox" />赠品
+                 </li>
+                 <li>
+                     <select name="select" id="select" value="">
+                         <option value="">请选择</option>
+                         <option value="一般贸易">一般贸易</option>
+                         <option value="保税备货">保税备货</option>
+                         <option value="跨境直邮">跨境直邮</option>
+                     </select>
+                 </li>
+                 <li>
+                     商品所在地:<span>不限地区▼</span>
+                     <p class="page1">
+                        <span>上一页</span>
+                        <span>下一页</span>
+                    </p>
+                 </li>
+             </ul>
+             <section>
+                 <ul id="goodslists">
+                 </ul>
+             </section>
+            <div class="box">
+                <div id="pagination2" class="page fl"></div>
+           
+            </div>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

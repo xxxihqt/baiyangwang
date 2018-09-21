@@ -1,0 +1,316 @@
+header {
+  width: 100%; }
+  header article {
+    width: 1205px;
+    margin: 0 auto; }
+    header article #user {
+      width: 100%;
+      height: 30px;
+      border-bottom: 1px solid #F0F0F0; }
+      header article #user .user_left {
+        width: 300px; }
+        header article #user .user_left p {
+          font-size: 12px;
+          color: #777777;
+          line-height: 30px; }
+          header article #user .user_left p strong {
+            color: #333333; }
+          header article #user .user_left p #name {
+            display: none; }
+          header article #user .user_left p #out {
+            display: none; }
+      header article #user .user_right {
+        float: right;
+        margin-top: -30px; }
+        header article #user .user_right ul {
+          float: left;
+          font-size: 12px;
+          color: #777777;
+          line-height: 30px;
+          padding: 0px 10px;
+          text-align: center; }
+          header article #user .user_right ul > li {
+            display: none; }
+          header article #user .user_right ul:hover li {
+            display: block; }
+          header article #user .user_right ul:hover ul {
+            border: 1px solid #ccc; }
+
+footer {
+  height: 148px;
+  width: 100%;
+  position: relative; }
+  footer section:first-child {
+    width: 1205px;
+    height: 148px;
+    margin: 0 auto;
+    clear: both;
+    border-top: 1px solid #ccc; }
+    footer section:first-child .all_links {
+      border-top: 1px solid #ccc;
+      padding-top: 35px;
+      box-sizing: border-box;
+      height: 249px; }
+      footer section:first-child .all_links #follw_us {
+        width: 300px; }
+        footer section:first-child .all_links #follw_us p {
+          font-size: 12px;
+          margin-top: 16px;
+          margin-left: 20px; }
+          footer section:first-child .all_links #follw_us p img {
+            margin-left: 10px;
+            margin-right: 10px; }
+      footer section:first-child .all_links #qr_code {
+        position: absolute;
+        right: 0px;
+        top: 40px; }
+        footer section:first-child .all_links #qr_code p {
+          float: left;
+          text-align: center;
+          margin-right: 20px; }
+          footer section:first-child .all_links #qr_code p span {
+            font-size: 11px;
+            color: #333333;
+            display: block;
+            font-weight: 700; }
+          footer section:first-child .all_links #qr_code p img {
+            float: right;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-bottom: 10px; }
+    footer section:first-child .foot {
+      border-top: 1px solid #ccc;
+      padding-top: 30px;
+      margin-bottom: 50px; }
+      footer section:first-child .foot .bottom {
+        text-align: center;
+        font-size: 12px;
+        color: #666666;
+        line-height: 30px; }
+        footer section:first-child .foot .bottom a {
+          font-size: 12px;
+          color: #666666;
+          padding: 0px 5px; }
+        footer section:first-child .foot .bottom a:first-child {
+          border-right: 1px solid #ccc; }
+        footer section:first-child .foot .bottom img {
+          margin-top: 5px; }
+
+main article {
+  width: 1205px;
+  margin: 0 auto; }
+  main article .top {
+    height: 130px; }
+    main article .top .logo {
+      margin-top: 30px; }
+    main article .top .progress {
+      float: right;
+      margin-right: 30px;
+      margin-top: 20px; }
+      main article .top .progress li {
+        float: left;
+        color: #CCCCCC;
+        text-align: center;
+        width: 160px;
+        position: relative; }
+        main article .top .progress li i {
+          font-size: 34px; }
+          main article .top .progress li i::before {
+            margin-bottom: 10px; }
+        main article .top .progress li p {
+          font-size: 12px;
+          height: 30px;
+          line-height: 30px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 55px; }
+        main article .top .progress li div {
+          width: 100%;
+          height: 1px;
+          background: #CCCCCC;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 47px; }
+        main article .top .progress li sub {
+          display: block;
+          width: 8px;
+          height: 8px;
+          background: #CCCCCC;
+          border-radius: 100%;
+          margin: 0 auto;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 43px; }
+      main article .top .progress .current {
+        color: #EF3C79; }
+        main article .top .progress .current div {
+          background: #EF3C79; }
+        main article .top .progress .current sub {
+          background: #EF3C79; }
+  main article .shoppingcar {
+    border-top: 1px solid #eee;
+    padding-bottom: 20px;
+    display: none; }
+    main article .shoppingcar h3 {
+      color: #555555;
+      font-size: 24px;
+      margin-top: 20px; }
+    main article .shoppingcar h5 {
+      font-size: 12px;
+      height: 18px;
+      line-height: 18px;
+      color: #bbb; }
+    main article .shoppingcar .store {
+      font-size: 14px;
+      height: 40px;
+      background: url(../images/shoppingcar/2.png) no-repeat 200px;
+      line-height: 40px;
+      margin: 20px 0px;
+      text-indent: 15px; }
+    main article .shoppingcar .yourItems {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #eee; }
+      main article .shoppingcar .yourItems span {
+        display: inline-block;
+        font-size: 12px;
+        text-align: center; }
+      main article .shoppingcar .yourItems span:first-child {
+        width: 198px;
+        text-indent: 10px;
+        text-align: left; }
+      main article .shoppingcar .yourItems span:nth-child(2) {
+        width: 427px;
+        text-align: left; }
+      main article .shoppingcar .yourItems span:nth-child(3) {
+        width: 203px;
+        text-align: left; }
+      main article .shoppingcar .yourItems span:nth-child(4) {
+        width: 81px; }
+      main article .shoppingcar .yourItems span:nth-child(5) {
+        width: 129px; }
+      main article .shoppingcar .yourItems span:nth-child(6) {
+        width: 91px; }
+    main article .shoppingcar .items tr {
+      width: 1205px;
+      height: 100px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      padding: 10px; }
+      main article .shoppingcar .items tr td {
+        text-align: center;
+        font-size: 12px; }
+        main article .shoppingcar .items tr td img {
+          width: 80px;
+          border: 1px solid #eee; }
+      main article .shoppingcar .items tr .check {
+        width: 40px; }
+      main article .shoppingcar .items tr .imgMain {
+        width: 150px; }
+      main article .shoppingcar .items tr .title {
+        width: 427px;
+        text-align: left; }
+        main article .shoppingcar .items tr .title span {
+          margin-top: 10px;
+          height: 20px;
+          display: block;
+          background: url(../images/xiaotubiao.png) no-repeat left center; }
+      main article .shoppingcar .items tr .price {
+        text-align: left;
+        width: 203px; }
+        main article .shoppingcar .items tr .price span:first-child {
+          font-weight: 900;
+          display: block;
+          text-align: left; }
+        main article .shoppingcar .items tr .price span:last-child {
+          display: block; }
+      main article .shoppingcar .items tr .qty {
+        text-align: left;
+        width: 81px; }
+        main article .shoppingcar .items tr .qty p {
+          border: 1px solid #ccc;
+          text-align: center;
+          height: 32px; }
+          main article .shoppingcar .items tr .qty p span {
+            display: inline-block;
+            width: 15px;
+            line-height: 32px;
+            cursor: pointer;
+            background: #F5F5F5; }
+          main article .shoppingcar .items tr .qty p span:nth-child(2) {
+            padding: 0px 10px;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            background: white; }
+      main article .shoppingcar .items tr .littleSum {
+        width: 154px; }
+        main article .shoppingcar .items tr .littleSum span {
+          font-weight: 900;
+          color: #EF3C79; }
+      main article .shoppingcar .items tr .choose {
+        text-align: left;
+        width: 91px; }
+        main article .shoppingcar .items tr .choose span {
+          display: block; }
+    main article .shoppingcar .total {
+      height: 113px;
+      width: 1205px;
+      margin-top: 30px; }
+      main article .shoppingcar .total p {
+        text-align: right;
+        font-size: 12px;
+        margin: 10px 30px; }
+        main article .shoppingcar .total p .total_price {
+          font-size: 20px;
+          color: #EF3C79;
+          font-weight: 700; }
+        main article .shoppingcar .total p button {
+          width: 110px;
+          height: 41px;
+          background: #EF3C79;
+          color: white;
+          font-size: 19px;
+          cursor: pointer;
+          margin-left: 10px; }
+  main article .none {
+    display: none;
+    height: 150px;
+    width: 450px;
+    margin: 100px auto;
+    position: relative; }
+    main article .none p {
+      font-size: 22px;
+      color: #777777;
+      position: absolute; }
+    main article .none p:nth-child(2) {
+      left: 170px;
+      top: 30px; }
+    main article .none p:nth-child(3) {
+      left: 170px;
+      top: 80px; }
+      main article .none p:nth-child(3) button {
+        font-size: 12px;
+        color: white;
+        width: 98px;
+        height: 30px;
+        border-radius: 5px; }
+        main article .none p:nth-child(3) button:hover {
+          background: #E81D75; }
+
+#shoppingBox {
+  padding: 10px;
+  box-sizing: border-box; }
+  #shoppingBox p {
+    background: #FFFFFF;
+    height: 28px;
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px; }
+  #shoppingBox .carImg {
+    width: 80px; }
+
+/*# sourceMappingURL=shoppingCar.css.map */

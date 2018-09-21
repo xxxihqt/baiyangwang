@@ -1,0 +1,96 @@
+header {
+  width: 100%;
+  height: 87px;
+  border-bottom: 1px solid #ddd; }
+  header article {
+    width: 988px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    header article div {
+      float: right;
+      width: 400px; }
+      header article div img {
+        width: 40px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 20px; }
+      header article div p {
+        font-size: 12px;
+        color: #C7B1AA;
+        margin-top: 10px; }
+        header article div p span {
+          font-weight: 800; }
+          header article div p span a {
+            color: #F13B78; }
+
+main article {
+  width: 988px;
+  margin: 0 auto;
+  position: relative; }
+  main article section {
+    margin-top: 30px;
+    width: 480px;
+    height: 450px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+    main article section h3 {
+      height: 60px;
+      border: 1px solid #E6E6E6;
+      margin-bottom: 30px; }
+      main article section h3 span {
+        height: 60px;
+        line-height: 60px;
+        padding: 0px 72px;
+        color: #999999; }
+    main article section .mianLog {
+      width: 350px;
+      margin: 0 auto; }
+      main article section .mianLog p {
+        width: 350px;
+        height: 52px;
+        border: 1px solid #ddd;
+        line-height: 52px;
+        color: #666666;
+        text-indent: 15px;
+        font-size: 12px; }
+        main article section .mianLog p input {
+          width: 278px;
+          height: 48px;
+          text-indent: 15px;
+          display: inline-block; }
+        main article section .mianLog p .checkbox {
+          width: 15px;
+          height: 15px; }
+        main article section .mianLog p span {
+          float: right;
+          color: #EF3C79; }
+      main article section .mianLog #check_code {
+        border-top: none; }
+        main article section .mianLog #check_code input {
+          width: 150px; }
+        main article section .mianLog #check_code span {
+          text-align: center;
+          display: inline-block;
+          float: right;
+          width: 120px;
+          height: 52px;
+          font-size: 20px;
+          font-weight: 900;
+          letter-spacing: 10px; }
+      main article section .mianLog a {
+        display: block;
+        margin-top: 20px; }
+        main article section .mianLog a button {
+          background: #EF3C79;
+          width: 350px;
+          height: 40px;
+          border-radius: 10px;
+          color: white; }
+
+footer article {
+  width: 988px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=login.css.map */

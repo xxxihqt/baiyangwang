@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <script type="text/javascript" src="../lib/jqueryWflbt/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+
+</head>
+<body>
+    <header>
+        <article>
+            <a href="#"><img src="../images/logo.png" height="60" width="220" alt="" class="logo"/> </a>
+            <div>
+                <img src="../images/mini_logo.jpg"alt="" />
+                <p>您好，欢迎来到百洋健康</p>
+                <p>已注册的会员请登录，或立即 <span class="newVip"><a href="#">注册新会员</a></span></p>
+            </div>
+        </article>
+    </header>
+    <main>
+        <article>
+            <img src="../images/shoppingCar/3.png" alt="" />
+            <section>
+                <h3>
+                    <a href="#"><span>用户登录</span></a>
+                    <a href="#"><span>手机动态码登录</span></a>
+                </h3>
+                <div class="mianLog">
+                    <p>帐号:<input type="text" id="username" placeholder="可使用已注册的用户名或手机号登录"/></p>
+                    <p>密码:<input type="password" id="password" placeholder="6-20个大小写英文字母、符号或数字"/></p>
+
+                    <p id="check_code">验证码:
+                        <input type="text" placeholder="请输入验证码" />
+                        <span class="code"></span>
+                    </p>
+                    <p >
+                        <input type="checkbox" class="checkbox"/>七天自动登录
+                        <span>忘记密码？</span>
+                    </p>
+                    <a href="#"><button id="logBtn">登录</button></a>
+                </div> 
+            </section>
+        </article>
+    </main>
+    <footer>
+        <article>
+            <img src="../images/shoppingCar/foot.png" height="160" width="988" alt="" />
+        </article>
+    </footer>
+</body>
+</html>

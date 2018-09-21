@@ -1,0 +1,408 @@
+header{
+    width: 100% ;
+    article{
+        width: 1205px;
+        margin:0 auto;
+        #user{
+            width: 100%;
+            height: 30px;
+            border-bottom:1px solid #F0F0F0;
+            .user_left{
+                width: 300px;
+                p{
+                font-size:12px;
+                color:#777777;
+                line-height: 30px;
+                    strong{
+                        color:#333333;
+                    }
+                    #name{
+                        display:none;
+                    }
+                    #out{
+                        display:none;
+                    }
+                }
+            }
+            .user_right{
+                float:right;
+                margin-top:-30px;
+                ul{
+                    float:left;
+                    font-size:12px;
+                    color:#777777;
+                    line-height: 30px;
+                    padding:0px 10px;
+                    text-align:center;
+                    >li{
+                        display:none;
+                    }
+                    &:hover li{
+                        display:block;   
+                    }
+                    &:hover ul{
+                        border:1px solid #ccc;
+                    }
+                }  
+            }
+        }
+    }
+}
+footer{
+    height: 148px;
+    width: 100%;
+    position:relative;
+    section:first-child{
+        width: 1205px;
+        height: 148px;
+        margin:0 auto; 
+        clear:both;
+        border-top:1px solid #ccc;
+        .all_links{
+                border-top:1px solid #ccc;
+                padding-top:35px;
+                box-sizing:border-box;
+                height: 249px;
+                #follw_us{
+                    width: 300px;
+                    p{
+                        font-size:12px;
+                        margin-top:16px;
+                        margin-left:20px;
+                            img{
+                                margin-left:10px;
+                                margin-right:10px;
+                            }
+                    }
+                }
+                #qr_code{
+                        position:absolute;
+                        right:0px;
+                        top:40px;
+                    p{
+                        float:left;
+                        text-align:center;
+                        margin-right:20px;
+                       span{
+                        font-size:11px;
+                        color:#333333;
+                        display:block;
+                        font-weight:700;
+                       } 
+                       img{
+                        float:right;
+                        border:1px solid #ccc;
+                        padding:5px;
+                        margin-bottom:10px;
+                        }
+                    }   
+                }
+        }
+        .foot{
+            border-top:1px solid #ccc;
+            padding-top:30px;
+            margin-bottom:50px;
+            .bottom{
+            text-align:center;
+            font-size:12px;
+            color: #666666;
+            line-height: 30px;
+                a{
+                    font-size:12px;
+                    color: #666666;
+                    padding:0px 5px;
+                }
+                a:first-child{
+                    border-right:1px solid #ccc;
+                }
+                img{
+                    margin-top:5px;
+                }
+            }
+        }
+        
+    }
+}
+main{
+    article{
+        width: 1205px;
+        margin:0 auto;
+        .top{
+            height: 130px;
+            .logo{
+                margin-top:30px;
+            }
+            .progress{
+                float:right;
+                margin-right:30px;
+                margin-top:20px;
+                li{
+                    float:left;
+                    color:#CCCCCC;
+                    text-align:center;
+                    width: 160px;
+                    position:relative;
+                    i{
+                        font-size:34px;
+                        &::before{
+                            margin-bottom:10px;
+                        }
+                    }
+                    p{
+                        font-size:12px;
+                        height: 30px;
+                        line-height: 30px;
+                        position:absolute;
+                        left:0;
+                        right:0;
+                        top:55px;
+                    }
+                    div{
+                        width: 100%;
+                        height:1px;
+                        background: #CCCCCC;
+                        position:absolute;
+                        left:0;
+                        right:0;
+                        top:47px;
+                    }
+                    sub{
+                        display:block;
+                        width: 8px;
+                        height: 8px;
+                        background: #CCCCCC;
+                        border-radius:100%;
+                        margin:0 auto;
+                        position:absolute;
+                        left:0;
+                        right:0;
+                        top:43px;
+                    }
+                }
+                .current{
+                    color:#EF3C79;
+                    div{
+                        background: #EF3C79;
+                    }
+                    sub{
+                        background: #EF3C79;
+                    }
+                }
+            }
+        }
+        .shoppingcar{
+            border-top:1px solid #eee;
+            padding-bottom:20px;
+            display:none;
+            h3{
+                color:#555555;
+                font-size:24px;
+                margin-top:20px;
+            }
+            h5{
+                font-size:12px;
+                height: 18px;
+                line-height: 18px;
+                color:#bbb;
+            }
+            .store{
+                font-size:14px;
+                height: 40px;
+                background: url(../images/shoppingcar/2.png) no-repeat 200px;
+                line-height: 40px;
+                margin:20px 0px;
+                text-indent:15px;
+            }
+            .yourItems{
+                margin-top:10px;
+                padding-top:10px;
+                border-top:1px solid #eee;
+                span{
+                    display:inline-block;
+                    font-size:12px;
+                    text-align:center;
+                }
+                span:first-child{
+                    width: 198px;
+                    text-indent:10px;
+                    text-align:left;
+                }
+                span:nth-child(2){
+                    width: 427px;
+                    text-align:left;
+                }
+                span:nth-child(3){
+                    width: 203px;
+                    text-align:left;
+                }
+                span:nth-child(4){
+                    width: 81px;
+                }
+                span:nth-child(5){
+                    width: 129px;
+                }
+                span:nth-child(6){
+                    width: 91px;
+                }
+            }
+            .items{
+                tr{
+                    width: 1205px;
+                    height: 100px;
+                    box-sizing:border-box;
+                    border:1px solid #ddd;
+                    padding:10px;
+                    td{
+                        text-align:center;
+                        font-size:12px;
+                        img{
+                            width: 80px;
+                            border:1px solid #eee;
+                        }
+                    }
+                    .check{
+                        width: 40px;
+                    }
+                    .imgMain{
+                        width: 150px;
+                    }
+                    .title{
+                        width: 427px;
+                        text-align:left;
+                        span{
+                            margin-top:10px;
+                            height: 20px;
+                            display:block;
+                            background: url(../images/xiaotubiao.png) no-repeat left center;
+                        }
+                    }
+                    .price{
+                        text-align:left;
+                        width: 203px;
+                        span:first-child{
+                            font-weight:900;
+                            display:block;
+                            text-align:left;
+                        }
+                        span:last-child{
+                            display:block;
+                        }
+                    }
+                    .qty{
+                        text-align:left;
+                        width: 81px;
+                        p{
+                            border:1px solid #ccc;
+                            text-align: center;
+                            height: 32px;
+                            span{
+                                display:inline-block;
+                                width: 15px;
+                                line-height: 32px;
+                                cursor:pointer;
+                                background:#F5F5F5;
+                            }
+                            span:nth-child(2){
+                                    padding:0px 10px;
+                                    border-left:1px solid #ccc;
+                                    border-right:1px solid #ccc;
+                                    background: white;
+                            }
+                        }
+                        
+                    }
+                    .littleSum{
+                        // text-align:left;
+                        width: 154px;
+                        span{
+                            font-weight:900;
+                            color:#EF3C79;
+                        }
+                    }
+                    .choose{
+                        text-align:left;
+                        width: 91px;
+                        span{
+                            display:block;
+                        }
+                    }
+                }
+            }
+            .total{
+                height: 113px;
+                width: 1205px;
+                margin-top:30px;
+                p{
+                    text-align:right;
+                    font-size:12px;
+                    margin:10px 30px;
+                    .total_price{
+                        font-size:20px;
+                        color:#EF3C79;
+                        font-weight:700;
+                    }
+                    button{
+                        width: 110px;
+                        height: 41px;
+                        background: #EF3C79;
+                        color:white;
+                        font-size:19px;
+                        cursor:pointer;
+                        margin-left:10px;
+                    }
+                }
+            }
+        }
+        .none{
+            display:none;
+            height: 150px;
+            width: 450px;
+            margin:100px auto;
+            position:relative;
+            p{
+                font-size:22px;
+                color:#777777;
+                position:absolute;
+            }
+            p:nth-child(2){
+                left:170px;
+                top:30px;
+            }
+            p:nth-child(3){
+                left:170px;
+                top:80px;
+                button{
+                    font-size:12px;
+                    color:white;
+                    width: 98px;
+                    height: 30px;
+                    border-radius:5px;
+                    &:hover{
+                        background: #E81D75;
+                    }
+                }
+            }
+        }
+    }    
+}
+#shoppingBox{
+            padding:10px;
+            box-sizing:border-box;
+            p{
+               background: #FFFFFF;
+               height: 28px;
+               color:#666666; 
+               text-align:center;
+               font-size:14px;
+               line-height: 28px;
+            }
+            .carImg{
+                        width: 80px;
+            }
+            ul{
+                li{
+                    img{
+                    }
+                }
+            }
+}

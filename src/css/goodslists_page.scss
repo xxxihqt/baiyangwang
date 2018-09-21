@@ -1,0 +1,227 @@
+main{
+    position:relative;
+    padding-bottom:100px;
+    .little_main{
+        width: 1205px;
+        margin: 0 auto; 
+        h3{
+            height: 40px;
+            font-size:12px;
+            color:#777777;
+            line-height: 40px;
+            padding-left:20px;
+            background:url(../images/goodslists_page/home.png) no-repeat left center;
+        }
+        .sortBox{
+            height: 37px;
+            border:1px solid #D7D7D7;
+            li{
+                display:inline-block;
+                font-size:12px;
+                line-height: 37px;
+                padding:0px 10px;
+                border-right:1px solid #D7D7D7;
+                background: #F7F7F7;
+                .page1{
+                    display:inline-block;
+                    float:right;
+                }
+            }
+        }
+        section{
+            margin-top:10px;
+             #goodslists{
+                     li{
+                        height: 376px;
+                        width: 228px;
+                        border:1px solid #ccc;
+                        float:left;
+                        margin-right:10px;
+                        margin-bottom:15px;
+                        text-align:center;
+                        padding-top:10px;
+                        overflow:hidden;
+                        box-sizing:border-box;
+                        position:relative;
+                        img{
+                            width: 180px;
+                            margin-bottom:20px;
+                        }
+                        .showMore{
+                            position:absolute;
+                            bottom:-115px;
+                            p{
+                                background: white;
+                                text-align:left;
+                                font-size:12px;
+                                padding:5px;
+                            }
+                            .title{
+                                background: white;
+                                height: 30px;
+                                overflow:hidden;
+                                a{
+                                    color:#333333;
+                                }
+                                span a{
+                                    color:#EF3CA2;
+                                }
+                            }
+                            .all_price{
+                                background: white;
+                                #price1{
+                                    color:#EF3CA2;
+                                    font-weight:800;
+                                    font-size:14px;
+                                }
+                                #price2{
+                                    color:#bbb;
+                                    font-weight:200;
+                                    font-size:10px;   
+                                }
+                                span:last-child{
+                                    display:inline-block;
+                                    width: 56px;
+                                    height: 16px;
+                                    float:right;
+                                    background: url(../images/goodslists_page/xiaotubiao.png) no-repeat center;
+                                }
+                            }
+                            #addToCompare{
+                                background: white;
+                                width: 229px;
+                                text-align:right;
+                                padding-right:10px;
+                                box-sizing:border-box;
+                                margin-bottom:10px;
+                                a{
+                                    color: #bbb;
+                                    border:1px solid #ccc;
+                                    padding:3px 10px;
+                                }
+                            }
+                            .saleQty{
+                                background: white;
+                                    border-top:1px solid #EEEEEE;
+                                    border-bottom:1px solid #EEEEEE;
+                                span{
+                                    display:inline-block;
+                                    padding:2px 10px;
+                                    text-align:center;
+                                    color:#999999;
+                                    border-right:1px solid #EEEEEE;
+                                    i{
+                                        display:block;
+                                        font-weight:800;
+                                    }
+                                    .blue{
+                                        color:#3388BB;
+                                    }
+                                    .brown{
+                                        color:#B57C9D;
+                                    }
+                                }
+                            }
+                            .shop{
+                                background: #F5F5F5;
+                                height: 20px;
+                                font-size:12px;
+                                text-align:center;
+                                line-height: 20px;
+                            }
+                            .addToCar{
+                                height: 30px;
+                                background: #EF3C79;
+                                font-size:16px;
+                                text-align:center;
+                                line-height: 30px;
+                                a{
+                                    color:white;
+                                }
+                            }
+                            .littleImg{
+                                background: rgba(255,255,255,0.5);
+                                img{
+                                    display:inline-block;
+                                    border:1px solid #ccc;
+                                    height: 30px;
+                                    width: 30px;
+                                    margin:0;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border:2px solid #EF3C79;
+                        }
+                     }
+            }
+        }
+        .box{
+            position:absolute;
+            bottom:0;
+            margin:0 auto;
+            width: 800px;
+            height: 34px;
+            .page{
+                width: 600px;
+            }
+                
+            .info {
+                width: 200px;
+                height: 34px;
+                line-height: 34px;
+            }  
+            .fl {
+                float: left;
+            }
+            .ui-pagination-container {
+                height: 34px;
+                line-height: 34px;
+            }
+            .ui-pagination-container .ui-pagination-page-item {
+                font-size: 14px;
+                padding: 4px 10px;
+                background: #fff;
+                border: 1px solid #c5b7b7;
+                color: #888;
+                margin: 0 3px;
+                text-decoration: none;
+            }
+            .ui-pagination-container .ui-pagination-page-item:hover {
+                border-color: #E81D75;
+                color: #E81D75;
+                text-decoration: none;
+            }
+
+            .ui-pagination-container .ui-pagination-page-item.active {
+                background: #E81D75;
+                border-color: #E81D75;
+                color: #fff;
+                cursor: default;
+            }
+        }
+    }
+}
+
+#shoppingBox{
+    padding:10px;
+    box-sizing:border-box;
+        p{
+            background: #FFFFFF;
+            height: 28px;
+            color:#666666; 
+            text-align:center;
+            font-size:14px;
+            line-height: 28px;
+        }
+        ul{
+            li{
+                img{
+                    width: 40px;
+                }
+                p{
+                    background: none;
+                }
+            }
+        }
+}

@@ -1,0 +1,136 @@
+header{
+    width: 100%;
+    height: 87px;
+    border-bottom:1px solid #ddd;
+    article{
+        width: 988px;
+        margin:0 auto;
+        padding-top:20px;
+        div{
+            float:right;
+            width: 400px;
+            margin-top:30px;
+            p{
+                font-size:14px;
+                color:#C7B1AA;
+                margin-top:10px;
+                text-align:right;
+                span{
+                    a{
+                        color:#F13B78;
+                    }
+                    font-weight:800;
+                }
+            }
+        }
+    }
+}
+
+main{
+    article{
+        width: 988px;
+        margin:0 auto;
+        padding-top:20px;
+        section{
+            width: 878px;
+            height: 580px;
+            border:11px solid #D1D1D1;
+            box-sizing:border-box;
+            margin:50px auto;
+            >img{
+                float:right;
+                height: 558px;
+            }
+            .registerBox{
+                width: 618px;
+                float:left;
+                h3{
+                height: 60px;
+                border-bottom:1px solid #E6E6E6;
+                margin-bottom:30px;
+                text-align:center;
+                    span{
+                        height: 60px;
+                        line-height: 60px;
+                        padding:0px 72px;
+                        color:#999999;
+                    }
+                }
+                .register{
+                    width: 400px;
+                    margin:0 auto;
+                    .email{
+                        width: 380px;
+                        height: 52px;
+                        border:1px solid #ddd;
+                        line-height: 52px;
+                        color:#666666;
+                        text-indent:15px;
+                        font-size:12px;
+                        input{
+                            width: 300px;
+                            height: 48px;
+                            text-indent:15px;
+                            display:inline-block;
+                        }
+                        .checkbox{
+                            width: 15px;
+                            height: 15px;
+                        }             
+                    }
+                    .password,.username{
+                        width: 380px;
+                        height: 52px;
+                        border:1px solid #ddd;
+                        line-height: 52px;
+                        color:#666666;
+                        text-indent:15px;
+                        font-size:12px;
+                        border-bottom:none;
+                        input{
+                            width: 176px;
+                            height: 48px;
+                            text-indent:15px;
+                            display:inline-block;
+                        }
+                        span{
+                            float:right;
+                            color:#ccc;
+                            font-size:10px;
+                            width: 150px;
+                            line-height: 16px;
+                            text-indent:0px;
+                            margin-top:10px;
+                        }
+                    }
+                    .check{
+                        font-size:12px;
+                        height: 52px;
+                        line-height: 52px;
+                        span{
+                            color:#EF3C79;
+                        }
+                    }
+                    a{
+                        display:block;
+                        margin-top:10px;
+                        button{
+                            background:#EF3C79;
+                            width: 350px;
+                            height: 40px;
+                            border-radius:10px;
+                            color:white;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+footer{
+    article{
+        width: 988px;
+         margin:0 auto;
+    }
+}

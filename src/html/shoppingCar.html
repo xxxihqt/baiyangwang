@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>shoppingCar</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shoppingCar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iconfont/download/font_h1m3mw560m7/iconfont.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../lib/jqueryWflbt/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/shoppingCar.js"></script>
+</head>
+<body>
+    <header>
+       <article>
+            <section id="user">
+                    <div class="user_left">
+                        <p>您好，
+                            <span id="name"></span>
+                            欢迎来到 <strong>百洋健康</strong> 
+                            <span id="login">[登录] </span>
+                            <span id="reg">[注册]</span>
+                            <span id="out"><a href="#">[退出]</a></span>
+                        </p>
+                    </div>
+                    <div class="user_right">
+                        <ul>
+                            <h6>我的订单</h6>
+                            <li class="a1">待付款订单</li>
+                            <li>待确认收货</li>
+                            <li>待评价交易</li>
+                        </ul>
+                        <ul>
+                            <h6>我的收藏</h6>
+                            <li>商品收藏</li>
+                            <li>店铺收藏</li>
+                        </ul>
+                        <ul>
+                            <h6>客户服务</h6>
+                            <li>帮助中心</li>
+                            <li>售后服务</li>
+                            <li>客服中心</li>
+                            <li>商家入驻</li>
+                            <li>商家管理</li>
+                        </ul>
+                    </div>
+            </section>
+        </article>
+    </header>
+    <main>
+        <article>
+            <section class="top">
+                <a href="#"><img src="../images/logo.png" alt="" class="logo"/></a>
+                <ul class="progress">
+                    <li>
+                        <i class="iconfont icon-gouwuche"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>我的购物车</p>
+
+                    </li>
+                    <li>
+                        <i class="iconfont icon-icon-pencil"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>确认结算</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-ziyuan"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>支付提交</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-weibiaoti-"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>订单完成</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="none">
+                <img src="../images/shoppingCar/none.png" alt="" />
+                <p>你的购物车还没有商品</p>
+                <p>
+                    <button class="ToShop">马上去购物</button>
+                    <button>查看自己的订单</button>
+                </p>
+                
+            </section>
+            <section class="shoppingcar">
+                <h3>我的购物车</h3>
+                <h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+                <div class="yourItems">
+                    <span><input type="checkbox" id="allchecked"/>全选</span>
+                    <span>商品</span>
+                    <span>单价(元)</span>
+                    <span>数量</span>
+                    <span>小计(元)</span>
+                    <span>操作</span>
+                </div>
+                <p class="store">店铺：百洋跨境免税自营店</p>
+
+                <table class="items">
+                    <!-- n行五列的table -->
+                </table>
+                <section class="total">
+                    <p>商品总价：<span class="_total">0.00</span> +税费合计： <span>0.00</span></p>
+                    <p>商品总价(不含运费)  <span class="total_price">0.00</span>元 <button>确认结算</button></p>
+                </section> 
+            </section>
+        </article>
+    </main>
+    <footer>
+         <section class="commonFooter">
+            <section class="all_links">
+                <div id="follw_us">
+                    <img src="../images/logo.png" alt="" />
+                    <p>关注我们
+                        <img src="../images/weibo02.png" alt="" /><img src="../images/weixin01.png" alt="" />
+                    </p>
+                </div>
+                <div id="qr_code">
+                    <p>
+                        <img src="../images/weixin-qr.jpg" alt="" />
+                        <span>扫描进入微信商城</span>
+                    </p>
+                    <p>
+                        <img src="../images/app-qr.jpg" alt="" />
+                        <span>扫描下载百洋APP</span>
+                    </p>
+                    
+                </div>
+            </section>
+            <section class="foot">
+                <p class="bottom">
+                    <a href="">首页</a>
+                    <a href="">联系我们</a>
+                </p>
+                <p class="bottom">版权所有© 2007 -2018 青岛百洋健康药房连锁有限公司 百洋健康 鲁ICP备09091598号</p>
+                <p class="bottom">
+                    <img src="../images/chengxin.jpg" alt="" />
+                    <img src="../images/hangye.jpg" alt="" />
+                    <img src="../images/jubao.jpg" alt="" />
+                </p>
+            </section>
+            
+        </section>
+    </footer>
+</body>
+</html>
+
